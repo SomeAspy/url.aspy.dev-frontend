@@ -1,0 +1,61 @@
+/**
+ * Copyright (c) 2021 Aiden Baker
+ *
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
+body{
+    margin:0;
+}
+
+.blur{
+    backdrop-filter: blur(7px);
+    height: 100%;
+    width: 100%;
+}
+
+.background{
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("https://aspy.dev/images/backgroundHome.webp");
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.redirect{
+    text-align: center;
+    color:rgb(247,247,255);
+    font-size:40px;
+    margin:0;
+    left:50%;
+    font-family: Roboto, sans-serif;
+}
+
+.description{
+    text-align: center;
+    color:rgb(247,247,255);
+    font-size:20px;
+    margin:0;
+    left:50%;
+    top:50%;
+    font-family: Roboto, sans-serif;
+}
+
+.copyright{
+    position:absolute;
+    left:50%;
+    bottom:0px;
+    transform:translate(-50%, -50%);
+    margin: 0 auto;
+    color:rgb(247, 247, 255);
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+}
