@@ -1,0 +1,35 @@
+/**
+ * Copyright (c) 2021 Aiden Baker
+ *
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
+body{
+    background-color:#000099;
+    margin:0;
+}
+
+.error{
+    text-align: center;
+    color: rgb(247, 247, 255);
+    font-size: 300px;
+    margin:0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Lucida Consolas,monospace;
+}
+
+.help{
+    text-align: center;
+    color: rgb(247, 247, 255);
+    font-size: 50px;
+    margin:0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Lucida Consolas,monospace;
+}
